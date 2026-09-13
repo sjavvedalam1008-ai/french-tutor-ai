@@ -2,7 +2,7 @@ from google import genai
 import streamlit as st
 
 # पेज की सेटिंग
-st.set_page_title(
+st.set_page_config(
     page_title="French Learning & Linguistic Bot",
     page_icon="🇫🇷",
     layout="wide",
